@@ -13,6 +13,7 @@ cd libxml2-2.9.3
 make 
 
 sudo make install
+cd ..
 
 #Cross-compilation zlib
 
@@ -29,6 +30,8 @@ export CC=arm-linux-gnueabihf-gcc
 make
 
 sudo make install
+
+cd ..
 
 #Cross-compilation libiio
 
@@ -71,6 +74,8 @@ source config.sh
 make 
 
 sudo make install
+
+cd ..
 
 
 

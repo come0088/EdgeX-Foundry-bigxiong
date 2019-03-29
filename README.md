@@ -1,4 +1,4 @@
-# device-sdk-go中golang内嵌libiio API交叉编译到ZC702
+# device-sdk-go中golang内嵌libiio API交叉编译到ZC702/ZC706
   1.运行setcclibiio.sh配置环境
   
   2.修改makefile CGO_ENABLE=1
